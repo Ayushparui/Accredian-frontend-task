@@ -1,15 +1,18 @@
 import React from "react";
 import { Box, Stack, Typography, TextField, Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 function Dashboard() {
 
     const data = localStorage.getItem('user').toUpperCase()
 
+    const navigate = useNavigate();
+
 
     const logout = () => {
         localStorage.removeItem('token');
         localStorage.removeItem('user');
-        window.location.reload();
+        navigate("/login");
     }
 
 
