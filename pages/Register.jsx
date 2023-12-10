@@ -24,9 +24,9 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3000/auth/register", data)
+            const res = await axios.post("https://accredian-backend-y63i.onrender.com/auth/register", data)
             console.log(res);
-            if(res.status === 200){
+            if(res.status === 201){
                 alert("Register Success");
                 navigate("/login");
             }

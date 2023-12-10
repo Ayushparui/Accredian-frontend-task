@@ -19,7 +19,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:3000/auth/login", data)
+            const res = await axios.post("https://accredian-backend-y63i.onrender.com/auth/login", data)
             console.log(res);
             if(res.status === 200){
                 alert("Login Success");
