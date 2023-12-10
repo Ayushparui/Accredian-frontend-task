@@ -39,7 +39,7 @@ function Login() {
         <Box sx={{
             height: "100vh",
             width: "100vw",
-            background: `url('../src/assets/ree.svg')`,
+            background: `url('../public/ree.svg')`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",

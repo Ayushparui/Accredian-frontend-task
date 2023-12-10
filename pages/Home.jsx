@@ -20,7 +20,7 @@ function Home() {
       sx={{
         height: "100vh",
         width: "100vw",
-        background: `url('../src/assets/home.svg')`,
+        background: `url('../public/home.svg')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
