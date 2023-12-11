@@ -23,7 +23,7 @@ function Dashboard() {
         <Box sx={{
             height: "100vh",
             width: "100vw",
-            background: `url('../public/ree.svg')`,
+            background: `url('/home.svg?url')`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
