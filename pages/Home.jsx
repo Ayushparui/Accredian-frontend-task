@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
-import home from "../public/home.svg"
+
 
 function Home() {
 
