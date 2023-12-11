@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Stack, Typography, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import home from "../public/home.svg"
 
 function Home() {
 
@@ -20,7 +21,7 @@ function Home() {
       sx={{
         height: "100vh",
         width: "100vw",
-        background: `url('../public/home.svg')`,
+        background: `url('/home.svg?url')`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
